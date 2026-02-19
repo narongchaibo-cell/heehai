@@ -1,0 +1,7 @@
+{
+  "name": "Industrial Machine Guard - Smart Inspection System",
+  "description": "A high-performance machine inspection and maintenance tracking system featuring AI-powered diagnostics via Gemini, real-time health dashboards, and digital checklist management.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
