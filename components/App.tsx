@@ -1,23 +1,23 @@
 
 import React, { useState, useEffect, useCallback, useRef, useMemo } from 'react';
-import Layout from './components/Layout';
-import Dashboard from './components/Dashboard';
-import MachineList from './components/MachineList';
-import TaskManagement from './components/TaskManagement';
-import InspectionForm from './components/InspectionForm';
-import AIChatAssistant from './components/AIChatAssistant';
-import MachineForm from './components/MachineForm';
-import HistoryList from './components/HistoryList';
-import PersonnelManagement from './components/PersonnelManagement';
-import TrashBin from './components/TrashBin';
-import InternalChat from './components/InternalChat';
-import { TMCLogo } from './components/Branding';
-import { INITIAL_MACHINES } from './constants';
+import Layout from './Layout';
+import Dashboard from './Dashboard';
+import MachineList from './MachineList';
+import TaskManagement from './TaskManagement';
+import InspectionForm from './InspectionForm';
+import AIChatAssistant from './AIChatAssistant';
+import MachineForm from './MachineForm';
+import HistoryList from './HistoryList';
+import PersonnelManagement from './PersonnelManagement';
+import TrashBin from './TrashBin';
+import InternalChat from './InternalChat';
+import { TMCLogo } from './Branding';
+import { INITIAL_MACHINES } from '../constants';
 import { 
   Machine, MachineStatus, InspectionRecord, User, UserRole, 
   ApprovalStatus, Personnel, PersonnelRole, Notification, 
   NotificationPriority, Task, TaskStatus, ChatMessage, TaskAttachment 
-} from './types';
+} from '../types';
 
 const translations = {
   TH: {
